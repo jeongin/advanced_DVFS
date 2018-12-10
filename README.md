@@ -2,10 +2,12 @@
 
 Linux shell script for advanced DVFS technique.
 
-Set a maximum temperature, # of cores, maximum frequency of your devices. It predict the higest temperature of cores at different frequencies. The highest one is adopted for CPU frequency.
+Set a maximum temperature, # of cores, maximum frequency of your devices. </br>
+It predicts the higest temperature of cores at different frequencies. </br>
+The highest one is adopted for CPU frequency.
 
-We use linear-regression model.
-Linear-regression model was established using the following:
+We use linear-regression model. </br>
+The model was established using the following:
 
 <pre><code>EXEC, IPC, FREQ, AFREQ, L3MPI, READ, WRITE,
 INST, PhysIPC, INSTnom, Proc_Energy_(Joules), Total_Util, frequency
@@ -40,7 +42,8 @@ This script must be run with sudo privileges.
 <pre><code>cd pcm/
 ./pcm-pred_model.x </code></pre>
 
-3. Start "advanced_DVFS" with new terminal [This example will limit system temperature to 50 Celsius (8 cores, Maximum frequency: 4.2GHz)]
+3. Start "advanced_DVFS" with new terminal. </br>
+[This example will limit system temperature to 50 Celsius (8 cores, Maximum frequency: 4.2GHz]
 <pre><code>cd pcm/
 ./advanced_DVFS.sh 50 8 4200000 </code></pre> 
 
