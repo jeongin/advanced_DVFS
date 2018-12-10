@@ -25,7 +25,7 @@ This script must be run with sudo privileges.
 
 2. Start "pcm-pred_model"
 <pre><code>cd pcm/
-./pcm-pred_model.x </code></pre>
+./pcm-pred_model.x & </code></pre>
 
 3. Start "advanced_DVFS" [This example will limit system temperature to 50 Celsius (8 cores, Maximum frequency: 4.2GHz)]
 <pre><code>./advanced_DVFS.sh 50 8 4200000 </code></pre> 
