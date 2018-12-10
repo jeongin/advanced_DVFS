@@ -8,11 +8,13 @@ We use linear-regression model.
 Linear-regression model was established using the following:
 
 <pre><code>EXEC, IPC, FREQ, AFREQ, L3MPI, READ, WRITE,
-INST, PhysIPC, INSTnom, Proc_Energy_(Joules), Total_Util, frequency </code></pre>
+INST, PhysIPC, INSTnom, Proc_Energy_(Joules), Total_Util, frequency
+
 "Total_Util" is total utilization of cores.
 "frequency" is current CPU frequency.
-Other details are in PCM (Processor Counter Monitor) - https://github.com/opcm/pcm.
-This model is based on Intel i7-7700. Thus, different types of servers may show slightly different prediction results.
+Other details are in PCM (Processor Counter Monitor) - https://github.com/opcm/pcm. </code></pre>
+This model is based on Intel i7-7700. </br>
+Thus, different types of servers may show slightly different prediction results.
 
 <hr/>
 This script must be run with sudo privileges.
