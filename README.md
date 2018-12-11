@@ -33,6 +33,9 @@ This script must be run with sudo privileges.
 4. Modify "Makefile"
 <pre><code> EXE = pcm-pred_model.x </code></pre>
 
+5. Make
+<pre><code> make </code></pre>
+
 
 ## How to Use
 1. super user mode
